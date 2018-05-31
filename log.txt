@@ -1,0 +1,45 @@
+[2018-03-29 19:18:38.513200] - Database was connected!!!
+[2018-03-29 19:18:38.513415] - Database return a set of clients
+[2018-03-29 19:19:17.865353] - Database was connected!!!
+[2018-03-29 19:19:17.866592] - Database return a set of clients
+[2018-03-29 19:19:47.167676] - Database was connected!!!
+[2018-03-29 19:19:47.168216] - Database return a set of clients
+[2018-03-29 19:20:47.001724] - Database was connected!!!
+[2018-03-29 19:20:47.001954] - Database return a set of clients
+[2018-03-29 19:21:01.795261] - Database was connected!!!
+[2018-03-29 19:21:01.795482] - Database return a set of clients
+[2018-03-29 19:24:16.183889] - Database was connected!!!
+[2018-03-29 19:24:16.184118] - Database return a set of clients
+[2018-03-29 19:25:56.502239] - Database was connected!!!
+[2018-03-29 19:26:14.395266] - Database return a set of clients
+[2018-03-29 19:27:56.268941] - Database was connected!!!
+[2018-03-29 19:27:56.269154] - Database return a set of clients
+[2018-03-29 19:29:19.966182] - Database was connected!!!
+[2018-03-29 19:29:19.966521] - Database return a set of clients
+[2018-03-29 19:29:51.794178] - Database was connected!!!
+[2018-03-29 19:29:51.794649] - Database return a set of clients
+[2018-03-29 19:36:02.764037] - Database was connected!!!
+[2018-03-29 19:36:02.764303] - Database return a set of clients
+[2018-03-29 19:36:37.363827] - Database was connected!!!
+[2018-03-29 19:36:37.364373] - Database return a set of clients
+[2018-03-29 19:38:20.149484] - Database was connected!!!
+[2018-03-29 19:38:20.150059] - Database return a set of clients
+[2018-03-29 19:40:00.617656] - Database was connected!!!
+[2018-03-29 19:40:00.618147] - Database return a set of clients
+[2018-03-29 19:40:16.918485] - Database was connected!!!
+[2018-03-29 19:40:16.918709] - Database return a set of clients
+[2018-03-29 19:45:28.597893] - Database was connected!!!
+[2018-03-29 19:45:28.598452] - Database return a set of clients
+[2018-03-29 19:48:00.429455] - Database was connected!!!
+[2018-03-29 19:48:00.429764] - Database return a set of clients
+[2018-03-29 19:49:36.843178] - Database was connected!!!
+[2018-03-29 19:49:36.843648] - Database return a set of clients
+[2018-03-30 10:21:12.930255] - Database was connected!!!
+[2018-03-30 10:21:12.930739] - Database return a set of clients
+[2018-03-30 13:24:38.746986] - Database was connected!!!
+[2018-03-30 13:24:38.747305] - Database return a set of clients
+[2018-03-30 13:26:10.447203] - Database was connected!!!
+[2018-03-30 13:26:10.448568] - Was added new record with name Kirimoshi Nara
+[2018-03-30 13:26:10.554684] - Record of Satoshi Nakamoto was changed. Additional parameter 1
+[2018-03-30 13:26:10.555202] - Was deleted a record with name Satoshi Nakamota
+[2018-03-30 13:26:10.555353] - Database return a set of clients

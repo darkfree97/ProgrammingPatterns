@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <style>
+        .manager{
+            margin-bottom: 5px;
+            background-color: #90ee90c7;
+            border-radius: 15px;
+            color: white;
+            text-shadow: 1px 2px black;
+        }
+        .label {
+            text-align: left;
+            font-size: 30px;
+            background-color: #56f556;
+            padding: 5px 17px;
+            border-radius: 15px;
+            border-bottom: 2px solid #6dea6d;
+        }
+        .ul{
+            list-style: none;
+            font-size: 20px;
+            position: relative;
+            top: -10px;
+            color: black; text-shadow: 2px 2px white;
+        }
+        .simple{
+            color: black;
+            text-shadow: 1px 2px white;
+        }
+    </style>
+</head>
+<body>
+{% for worker in employers %}
+{% if worker.subordinates %}
+<div class="manager">
+    <div class="label">
+        {{ worker }}
+    </div>
+    <ul class="ul" hidden="hidden">
+        {% for subordinate in worker.subordinates %}
+        <li {% if subordinate.subordinates %}style="color: white; text-shadow: 2px 2px black;" {% endif %}>{{ subordinate }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+{% endfor %}
+
+{% for worker in employers %}
+{% if not worker.subordinates %}
+<div class="simple">
+    <div class="label">
+        {{ worker }}
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+</body>
+<script>
+    $(".manager").click(function () {
+        $(this).find(".ul").toggle()
+    });
+</script>
+</html>

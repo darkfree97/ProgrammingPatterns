@@ -1,0 +1,26 @@
+.manager{
+            margin-bottom: 5px;
+            background-color: #90ee90c7;
+            border-radius: 15px;
+            color: white;
+            text-shadow: 1px 2px black;
+        }
+        .label {
+            text-align: left;
+            font-size: 30px;
+            background-color: #56f556;
+            padding: 5px 17px;
+            border-radius: 15px;
+            border-bottom: 2px solid #6dea6d;
+        }
+        .ul{
+            list-style: none;
+            font-size: 20px;
+            position: relative;
+            top: -10px;
+            color: black; text-shadow: 2px 2px white;
+        }
+        .simple{
+            color: black;
+            text-shadow: 1px 2px white;
+        }
